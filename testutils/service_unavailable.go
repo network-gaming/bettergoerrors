@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"bettergoerrors"
+	"github.com/RO-29/bettergoerrors"
 )
 
 const unavailableSkipDefaultEnvVar = "TESTUTILS_UNAVAILABLE_SKIP"

@@ -4,7 +4,7 @@ import (
 	std_errors "errors" //nolint:depguard // Required for Is() and As().
 	"fmt"
 
-	"bettergoerrors/internal"
+	"github.com/RO-29/github.com/RO-29/bettergoerrors/internal"
 )
 
 // New returns a new error with a message and a stack.

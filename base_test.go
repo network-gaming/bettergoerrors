@@ -4,10 +4,10 @@ import (
 	"io"
 	"testing"
 
-	"bettergoerrors/internal"
-	"bettergoerrors/testutils"
+	"github.com/RO-29/bettergoerrors/internal"
+	"github.com/RO-29/bettergoerrors/testutils"
 
-	. "bettergoerrors"
+	. "github.com/RO-29/bettergoerrors"
 )
 
 func TestNew(t *testing.T) {

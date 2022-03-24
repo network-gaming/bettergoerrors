@@ -1,4 +1,4 @@
-module bettergoerrors
+module github.com/RO-29/bettergoerrors
 
 go 1.15
 

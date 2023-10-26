@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/RO-29/bettergoerrors"
+	"github.com/network-gaming/bettergoerrors"
 )
 
 const unavailableSkipDefaultEnvVar = "TESTUTILS_UNAVAILABLE_SKIP"
@@ -14,8 +14,8 @@ const unavailableSkipDefaultEnvVar = "TESTUTILS_UNAVAILABLE_SKIP"
 //
 // It skips or fatals the test depending on the value of boolean environment variables.
 // It checks in this order the environment variables:
-//  - with the name given in the unavailableSkipEnvVar parameter
-//  - TESTUTILS_UNAVAILABLE_SKIP (global default behavior)
+//   - with the name given in the unavailableSkipEnvVar parameter
+//   - TESTUTILS_UNAVAILABLE_SKIP (global default behavior)
 func HandleUnavailable(tb testing.TB, unavailableSkipEnvVar string, myerr error) {
 	tb.Helper()
 	skip, err := shouldSkip(unavailableSkipEnvVar)

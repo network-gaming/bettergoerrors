@@ -3,7 +3,7 @@ package testutils
 import (
 	"testing"
 
-	"github.com/RO-29/bettergoerrors"
+	"github.com/network-gaming/bettergoerrors"
 )
 
 // FatalErr calls tb.Fatal() with an improved error formatting.

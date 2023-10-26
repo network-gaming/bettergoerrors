@@ -1,4 +1,4 @@
-module github.com/RO-29/bettergoerrors
+module github.com/network-gaming/bettergoerrors
 
 go 1.15
 

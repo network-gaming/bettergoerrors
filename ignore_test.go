@@ -5,11 +5,11 @@ import (
 	"io"
 	"testing"
 
-	"github.com/RO-29/bettergoerrors/testutils"
+	"github.com/network-gaming/bettergoerrors/testutils"
 
-	"github.com/RO-29/bettergoerrors/internal"
+	"github.com/network-gaming/bettergoerrors/internal"
 
-	. "github.com/RO-29/bettergoerrors"
+	. "github.com/network-gaming/bettergoerrors"
 )
 
 func TestIgnore(t *testing.T) {

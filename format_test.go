@@ -5,9 +5,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/RO-29/bettergoerrors/internal"
+	"github.com/network-gaming/bettergoerrors/internal"
 
-	. "github.com/RO-29/bettergoerrors"
+	. "github.com/network-gaming/bettergoerrors"
 )
 
 func TestFormat(t *testing.T) {
